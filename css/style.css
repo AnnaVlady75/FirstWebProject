@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital,wght@1,500&family=Roboto:wght@100;300&family=Ysabeau+Infant:ital,wght@1,1&display=swap);
+
+
+@font-face {
+    font-family: Family New;
+    src: url(../fonts/AlegreyaSansSC-MediumItalic.ttf);
+}
+
+body{
+    background-color:rgb(12, 85, 75);
+    font-family: Montserrat, sans-serif;
+    color:beige;
+}
+
+/*Начало блока header*/
+.header{
+    padding: 40px 0;
+    background-color:aquamarine;
+}
+
+.special_container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header .special_container{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    vertical-align: bottom;
+    width: 75px;
+    height: 75px;
+}
+
+.main_title_header{
+    font-family: Family New, sans-serif;
+    font-size: 16px;
+    margin-left: 75px;
+}
+.big_title{
+    font-family: Big_title_font;
+    src: url(../fonts/VictorMono-Medium.ttf);
+    font-size: 20px;
+    color:rgb(28, 83, 18);
+}
+
+.menu{
+    margin-left: 150px;
+    display: flex;
+    list-style: none;
+}
+
+.menu_item{
+    margin-right: 120px;
+}
+
+.menu_item a{
+    font-size: 16px;
+    color: rgb(28, 83, 18);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu_item a:hover{
+    border-bottom: 2px solid white;
+}
+/*Конец блока header*/
+
+/*Начало блока Section*/
+.main_content{
+    padding-top: 18px;
+    padding-bottom: 30px;
+}
+
+.main_content_info{
+    max-width: 1200px;
+}
+
+.content_title{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 46px;
+    color: rgb(222, 222, 33);
+}
+
+.content_text{
+    font-size: 18px;
+    line-height: 29px;
+    margin-bottom: 46px;
+    text-align: justify;
+}
+.img{
+    margin: 46px;
+}
+
+.card{
+    color:black;
+}
+/*Конец блока Section*/
+
+/*Начало блока Footer*/
+.footer{
+    padding: 20px 0;
+}
+
+.footer .special_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_info{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.footer .up_link{
+    font-size: 14px;
+    line-height: 20px;
+}
+/*Конец блока Footer*/
+
+
+
+
+
+
+
